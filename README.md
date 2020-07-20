@@ -7,6 +7,8 @@ I took on this personal project primarily to learn SQL, which I find is pertinen
 # How it Works
 All SQL queries and interactions with the database are handled through python backend structure. There are two tables in the database. The first is the table with all the correct answers, i.e. all the different Pokémon to be entered by the user. The second table is the user's progress; which of the entries entered by the user were correct. For each Pokémon name entered by the user, the solution table is cross-referenced and if it contains the same entry, the user table is updated with value inputted. Otherwise, an error message is shown.
 
+At any tume, the user may display all their progress or clear it. Displaying will show all values in the user table, while clear will delete all values in the table.
+
 # Challenges Faced
 While taking on this project, many obstacles and issues came up. Since, it was my first time learning SQL and using the MySQL workbench, it was initially difficult to set up the database. With sufficient research and instructions, I was successfully able to initalize a database, make tables, and add values to it.
 
