@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Clear {% endblock %}
+
+{% block content %}
+    
+<h3>Clear page</h3>
+    
+    <p><span style="color: red"><strong>Warning:</strong></span> Clicking the button below will clear <strong>all</strong> your progress. </p>
+
+    <form method="post">
+   
+    {{ form.submit }}
+   
+    </form>
+    
+{% endblock %}
